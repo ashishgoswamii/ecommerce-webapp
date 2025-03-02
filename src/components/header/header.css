@@ -1,0 +1,43 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5vw 3vw 3vw 3vw;
+    background: rgb(84, 175, 157);
+
+    .logo-button{
+        margin-left: 10vw;
+    }
+    
+    .search-box{
+        margin-left:5vw;
+        padding-right: 20vw;
+        background: rgb(239, 237, 237);
+    }
+
+    .action-buttons{
+        margin-left: 20vw;
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+    }
+
+    button{
+        
+        border-radius: 3px  ;
+        padding: 1vh 1vw 1vh 1vw;
+        background: rgb(239, 237, 237);
+        color: black;
+        
+        
+    }
+
+    button:hover{
+        
+        padding: 1vh 1vw 1vh 1vw;
+        background: rgb(108, 105, 105);
+        color: white;
+        
+        
+    }
+    
+}
